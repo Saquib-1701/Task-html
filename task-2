@@ -1,1 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        html{
+  box-sizing:border-box;
+}
 
+body{
+  background-color:white;
+  font-family:Arial;
+}
+  
+
+.container{
+  width:1440px;
+  height:0.7em;
+  background-color:white;  
+}
+.container1{
+ 
+  left:0px;
+  width:1440px;
+  height:32em;
+  background-color:#656cec;
+  border-radius:64px;
+  color:white;
+}
+.desk{
+  width:1440px;
+  height:61px;
+  background-color:black; 
+  vertical-align:bottom;
+  font-size:12px;
+}
+#leaderboard{
+  width:1440px;
+  height:100px;
+  left:0px;
+  top:0px;
+  background-color:#656cec;
+  border-bottom:3px solid;
+  text-align:center;
+  font-size:64px;
+  line-height:64px;
+  font-family:Segoe UI;
+  font-style:regular;
+  vertical-align:top;
+  font-weight:100;
+  
+}
+#top{
+  width:1440px;
+  height:347px;
+ 
+
+  border-bottom-left-radius:64px;
+  border-bottom-right-radius:64px;  
+  padding-bottom:10px solid;
+}
+
+.flex-1
+{
+  display:flex;
+  justify-content:center;
+ 
+}
+.flex-1 div
+{
+  background-color:#babeff;
+  text-align:center;
+}
+.first
+{
+  height:150.86px;
+  width:150.86px;
+  border-radius:150px;
+  border:5px solid;
+  margin-top:50px;
+  margin-left:100px;
+  margin-right:100px;
+  overflow: hidden;
+}
+.second
+{
+  height:120.86px;
+  width:120.86px;
+  border-radius:150px;
+  border:4px solid;
+  margin-top:100px;
+  overflow: hidden;
+  
+}
+.third
+{
+  height:100.86px;
+  width:100.86px;
+  border-radius:150px;
+  border:4px solid;
+  margin-top:120px;
+  overflow: hidden;
+  
+}
+.flex-2
+{
+  display:flex;
+  justify-content:center;
+}
+.flex-2 div {
+   background-color:#babeff;
+  text-align:center;
+}
+.second2{
+  width:120.86px;
+  height:25px;
+  top:395px;
+  left:346px;
+  border-radius:16px;
+  margin-top:5px;
+  margin-right:30px;
+  
+}
+.first1{
+  width:150.86px;
+  height:36px;
+  top:395px;
+  left:346px;
+  border-radius:16px;
+  margin-right:80px;
+  margin-left:80px;
+  margin-top:-10px;
+}
+.third3{
+  width:100.86px;
+  height:25px;
+  top:395px;
+  left:346px;
+  border-radius:16px;
+  margin-top:5px;
+  margin-left:30px;
+}
+
+.flex-3{
+   display:flex;
+  justify-content:center;
+  height:1px;
+ 
+}
+.flex-3 div{
+  background-color:#babeff;
+  text-align:center;
+}
+.second22{
+  width:26px;
+  height:26px;
+  border-radius:20px;
+  margin-top:68px;
+   margin-right:135px;
+  
+}
+.first11{
+  width:26px;
+  height:26px;
+  border-radius:20px;
+  margin-top:15px;
+   margin-right:80px;
+  margin-left:85px;
+}
+.third33{
+  width:26px;
+  height:26px;
+  border-radius:20px;
+  margin-top:90px;
+   margin-left:135px;
+}
+.container2{
+  display:flex;
+  flex-direction:column;
+  
+}
+.remain{
+  width:1440px;
+  height:100px;
+  border:3px solid;
+  background-color:#d2d4f2;
+  height:100px;
+  border:3px solid white;
+  margin-top:2px;
+  text-align:center;
+  
+}
+.entry2
+{
+ width:60px;
+  height:60px;
+ border-radius:50px; 
+  margin-top:-60px;
+  margin-left:70px;
+  background-color:#babeff;
+  border:2px solid white;
+  overflow: hidden;
+  
+}
+.entry1
+{
+  text-align:center;
+  margin-right:1400px;
+  margin-top:45px;
+  height:-100px;
+  width:-5px;
+  
+}
+.entry3
+{
+  text-align:center;
+  height:200px;
+  width:400px;
+  margin-top:-55px;
+  
+  
+  
+}
+
+.entry4
+{
+  text-align:center;
+  height:200px;
+  width:2000px;
+  margin-top:-219px;
+  
+  
+  
+}
+#pos
+{
+  text-align:top;
+  margin-top:4px;
+  opacity:0.8;
+}
+#name
+{
+  text-align:top;
+  margin-top:2px;
+  opacity:0.8;
+}
+
+#name1
+{
+  text-align:top;
+  margin-top:8px;
+  opacity:0.8;
+}
+#desk1
+{
+  position:absolute;
+  bottom:487px;
+  left:100;
+  opacity:0;
+}
+img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div class="container">
+    <div class="container1">
+      <div class="desk">
+      <p id="desk1">Desktop-1</p>  
+      </div>
+    <div id="leaderboard">
+      <p>Leaderboard</p>
+    </div>
+    <div id="top">
+       <div class="flex-3">
+        <div class="second22"><p id="pos">2</p></div>
+        <div class="first11"><p id="pos">1</p></div>     
+        <div class="third33"><p id="pos">3</p></div>
+        
+      </div>
+      
+      <div class="flex-1">
+        <div class="second na2"></div>
+        <div class="first na1"></div>     
+        <div class="third na3"></div>
+        
+      </div>
+       <div class="flex-2">
+        <div class="second2 moha2"><p id="name">Jeremy  - 672</p></div>
+        <div class="first1 moha1"><p id="name1">Amanda  - 764</p></div>     
+        <div class="third3 moha3"><p id="name">Jeffery   - 542</p></div>
+        
+      </div>
+      </div>
+      
+      </div>
+      
+    <div class="container2">
+    <div class="remain">
+      <div class="entry1 "><p>4</p></div>
+      <div class="entry2 sa1"></div>    
+      <div class="entry3 nam1"><p>Joe</p></div>    
+      <div class="entry4 poi1"><p>445</p></div>    
+    </div>
+     <div class="remain">
+      <div class="entry1 "><p>5</p></div>
+      <div class="entry2 sa2"></div>    
+      <div class="entry3 nam2"><p>Jenny</p></div>    
+      <div class="entry4 poi2"><p>438</p></div>    
+    </div>
+     <div class="remain">
+      <div class="entry1"><p>6</p></div>
+      <div class="entry2 sa3"></div>    
+      <div class="entry3 nam3"><p>Josh</p></div>    
+      <div class="entry4 poi3"><p>432</p></div>    
+    </div>
+     <div class="remain">
+      <div class="entry1"><p>7</p></div>
+      <div class="entry2 sa4"></div>    
+      <div class="entry3 nam4"><p>Stella</p></div>    
+      <div class="entry4 poi4"><p>321</p></div>    
+    </div>
+     <div class="remain">
+      <div class="entry1"><p>8</p></div>
+      <div class="entry2 sa5"></div>    
+      <div class="entry3 nam5"><p>Sally</p></div>    
+      <div class="entry4 poi5"><p>300</p></div>    
+    </div>
+  <div class="remain">
+      <div class="entry1"><p>9</p></div>
+      <div class="entry2 sa6"></div>    
+      <div class="entry3 nam6"><p>Salah</p></div>    
+      <div class="entry4 poi6"><p>284</p></div>    
+    </div>
+  
+     </div> 
+
+
+     <script>
+        let human='';
+        fetch('https://www.coursehubiitg.in/api/codingweek/contributions')
+            .then(num => num.json())
+            .then(human1 => {
+                function sorting(hi1,hi2) {
+                    return hi2.points - hi1.points;
+                }
+                human = human1.sort(sorting)
+                console.log(human)
+          
+           document.querySelector('.moha1').innerText = `${human[0].name} - ${human[0].points}`;
+                document.querySelector('.moha2').innerText = `${human[1].name} - ${human[1].points}`;                
+                document.querySelector('.moha3').innerText = `${human[2].name} - ${human[2].points}`;                
+                document.querySelector('.na1').innerHTML = `<img src="${human[0].avatar}">`;  
+                document.querySelector('.na2').innerHTML = `<img src="${human[1].avatar}">`;                
+                document.querySelector('.na3').innerHTML = `<img src="${human[2].avatar}">`;
+          
+           document.querySelector('.nam1').innerText = `${human[3].name}`; 
+                document.querySelector('.poi1').innerText = `${human[3].points}`;
+                document.querySelector('.sa1').innerHTML = `<img src="${human[3].avatar}">`;  
+                
+                document.querySelector('.nam2').innerText = `${human[4].name}`; 
+                document.querySelector('.poi2').innerText = `${human[4].points}`;
+                document.querySelector('.sa2').innerHTML = `<img src="${human[4].avatar}">`;  
+
+                document.querySelector('.nam3').innerText = `${human[5].name}`; 
+                document.querySelector('.poi3').innerText = `${human[5].points}`;
+                document.querySelector('.sa3').innerHTML = `<img src="${human[5].avatar}">`;  
+
+                document.querySelector('.nam4').innerText = `${human[6].name}`; 
+                document.querySelector('.poi4').innerText = `${human[6].points}`;
+                document.querySelector('.sa4').innerHTML = `<img src="${human[6].avatar}">`;  
+
+                document.querySelector('.nam5').innerText = `${human[7].name}`; 
+                document.querySelector('.poi5').innerText = `${human[7].points}`;
+                document.querySelector('.sa5').innerHTML = `<img src="${human[7].avatar}">`;  
+
+                document.querySelector('.nam6').innerText = `${human[8].name}`; 
+                document.querySelector('.poi6').innerText = `${human[8].points}`;
+                document.querySelector('.sa6').innerHTML = `<img src="${human[8].avatar}">`;  
+        })
+        </script>
+</body>
+</html>
